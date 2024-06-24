@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import Modal from './Modal';
 import NouveauOffre from './NouveauOffre';
-import '../CSS/Offer.css';
+import '../../CSS/Offer.css';
 
 const Offer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

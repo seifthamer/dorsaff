@@ -1,4 +1,4 @@
-import "../CSS/Dashboard.css";
+import "../../CSS/Dashboard.css";
 import React, { useState } from 'react';
 import ReactApexChart from 'react-apexcharts';
 import Footer from "./Footer";

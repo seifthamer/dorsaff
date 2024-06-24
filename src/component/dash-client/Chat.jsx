@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../CSS/Chat.css';
+import '../../CSS/Chat.css';
 import Footer from './Footer';
 
 const Chat = () => {

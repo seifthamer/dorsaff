@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../CSS/NouveauOffre.css';
+import '../../CSS/NouveauOffre.css';
 
 const NouveauOffre = () => {
   const [title, setTitle] = useState('');

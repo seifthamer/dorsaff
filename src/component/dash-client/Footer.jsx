@@ -1,6 +1,6 @@
 
 import React from "react";
-import '../CSS/Footer.css';
+import '../../CSS/Footer.css';
 import { Link } from "react-router-dom";
 import Sidebar from "./SideBar";
 import NavBar from "./NavBar";

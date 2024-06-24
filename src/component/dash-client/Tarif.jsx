@@ -1,5 +1,5 @@
 import React from "react";
-import '../CSS/Tarif.css'
+import '../../CSS/Tarif.css'
 import Footer from "./Footer";
 
 function Tarif() {

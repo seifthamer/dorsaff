@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Accueil.css";
+import "../../CSS/Accueil.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel, Container, Row, Col, Button } from "react-bootstrap";
 import Footer from "./Footer";

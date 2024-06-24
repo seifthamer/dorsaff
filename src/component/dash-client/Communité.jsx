@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Livre.css";
+import "../../CSS/Livre.css";
 import Footer from "./Footer";
 import { FaCheckCircle } from "react-icons/fa";
 import { BsThreeDotsVertical } from "react-icons/bs";

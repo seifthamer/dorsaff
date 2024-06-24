@@ -1,27 +1,30 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavBar from "./component/NavBar";
-import Sidebar from "./component/SideBar";
-import Login from "./component/Login";
-import Accueil from "./component/Accueil";
-import Offer from "./component/Offer";
-import Profil from "./component/Profil";
-import Livre from "./component/Livre";
-import Tarif from "./component/Tarif";
-import NouveauOffre from "./component/NouveauOffre";
+import NavBar from "./component/dash-client/NavBar";
+import Sidebar from "./component/dash-client/SideBar";
+import Login from "./component/dash-client/Login";
+import Accueil from "./component/dash-client/Accueil";
+import Offer from "./component/dash-client/Offer";
+import Profil from "./component/dash-client/Profil";
+import Livre from "./component/dash-client/Livre";
+import Tarif from "./component/dash-client/Tarif";
+import NouveauOffre from "./component/dash-client/NouveauOffre";
 import { Modal } from "react-bootstrap";
-import Dashboard from "./component/Dashboard";
-import FilAcceuil from "./component/FilAcceil";
-import Chat from "./component/Chat";
-import Communité from "./component/Communité";
-import Contact from "./component/Contact";
+import Dashboard from "./component/dash-client/Dashboard";
+import FilAcceuil from "./component/dash-client/FilAcceil";
+import Chat from "./component/dash-client/Chat";
+import Communité from "./component/dash-client/Communité";
+import Contact from "./component/dash-client/Contact";
+import Homee from "./component/front-site/Homee";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <Router>
       <div>
         {/* <Login/> */}
-        <Sidebar />
+      <Homee/>
+        {/* <Sidebar />
         <NavBar />
         <div id="content" style={{ marginLeft: "250px", padding: "20px" }}>
           <Routes>
@@ -38,7 +41,7 @@ const App = () => {
             <Route path="/Communité" element={<Communité/>}/>
             <Route path="/Contact" element={<Contact/>}/>
           </Routes>
-        </div>
+        </div> */}
       </div>
     </Router>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/NavBar.css";
+import "../../CSS/NavBar.css";
 import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 
 const NavBar = () => {
