@@ -35,16 +35,16 @@ div#button.show {
     font-family: 'Merriweather', serif;
  }
  
- nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 5%;
-    padding-top: 30px;
-    padding-left: 5%;
-    font-size: 40px;
-    
- }
+  .navvvs {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 5%;
+      padding-top: 30px;
+      padding-left: 5%;
+      font-size: 40px;
+      
+  }
  
 
  .logo p{

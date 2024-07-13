@@ -18,16 +18,19 @@ import Contact from "./component/dash-client/Contact";
 import Homee from "./component/front-site/Homee";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 const App = () => {
   return (
     <Router>
       <div>
         {/* <Login/> */}
-      <Homee/>
-        {/* <Sidebar />
+      {/* <Homee/> */}
+     
+        <Sidebar />
         <NavBar />
         <div id="content" style={{ marginLeft: "250px", padding: "20px" }}>
           <Routes>
+            
             <Route path="/Livre" element={<Livre />} />
             <Route path="/Offer" element={<Offer />} />
             <Route path="/Profil" element={<Profil/>}/>
@@ -35,13 +38,15 @@ const App = () => {
             <Route path="/NouveauOffre" element={<NouveauOffre/>}/>
             <Route path="/Modal" element={<Modal/>}/>
             <Route path="/Dashboard" element={<Dashboard/>}/>
-            <Route path="/FilAcceuil" element={<FilAcceuil/>}/>
+            {/* <Route path="/FilAcceuil" element={<FilAcceuil/>}/> */}
             <Route path="/Accueil" element={<Accueil/>}/>
             <Route path="/Chat" element={<Chat/>}/>
             <Route path="/Communité" element={<Communité/>}/>
             <Route path="/Contact" element={<Contact/>}/>
+           
           </Routes>
-        </div> */}
+        </div>
+   
       </div>
     </Router>
   );

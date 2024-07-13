@@ -13,6 +13,7 @@ import {
   faPhoneAlt,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 class Homee extends React.Component {
   componentDidMount() {
@@ -28,7 +29,7 @@ class Homee extends React.Component {
         <div id="button">^</div>
         <section id="bloc1">
           <header>
-            <nav>
+            <navvvs>
               <div className="logo">
                 <a href="/index.html">
                   <img
@@ -58,8 +59,11 @@ class Homee extends React.Component {
                 <li>
                   <a href="#bloc4">CONTACT</a>
                 </li>
+                <li>
+                  <Link to="">Login</Link>
+                </li>
               </ul>
-            </nav>
+            </navvvs>
           </header>
           {/* <div className="content">
             <h4>WELCOME TO MH CERAMICS</h4>
@@ -301,7 +305,7 @@ class Homee extends React.Component {
                   <div className="news-text-box">
                     <h3>
                       <a style={{ fontSize: "2.5rem" }} href="">
-                        Formation
+                      Backpack
                       </a>
                     </h3>
 
